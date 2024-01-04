@@ -1,0 +1,63 @@
+.bg {
+    background-image: url("http://www.pallavagranites.com/images/4.jpg"), url("http://www.pallavagranites.com/images/3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: moveBackground 2s linear infinite;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+  
+  @keyframes moveBackground {
+    0% { background-position: 0% 0%, 0% 0%; }
+    100% { background-position: 100% 0%, 200% 0%; }
+  }
+  .card {
+    text-align: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    width:50%;
+   
+    align-items: center;
+    color: azure;
+    padding: 30px;
+  }
+  .p{
+    text-align: justify;
+    
+  }
+  img{
+    width:40%;
+    margin-bottom: 10px;
+  }
+  li{
+    margin-left: 10px;
+    list-style: none;
+    font-size: larger;
+  }
+  ui{
+    background-color: rgba(0, 0, 0, 0.7);
+    width:70%;
+    padding-left:400px;
+    margin-left:25px;
+    border-radius: 15px;
+  }
+  li{
+    padding-left:50px;
+    margin-left:50px
+  }
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ .A{
+   
+    position: absolute;
+    top:25%;
+ }
+ marquee{
+    color: black;
+    top:100px;
+    position: absolute;
+    font-size: larger;
+ }
